@@ -1,0 +1,397 @@
+@font-face{
+    font-family: for;
+    src: url(../hackethon/images/Raleway-ThinItalic.ttf);
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    padding: 1% !important;
+    box-sizing: border-box !important;
+    background-color: white;
+    border-bottom: 1px solid rgb(245, 243, 243);
+    position: sticky !important;
+    top: 0px;
+    transition: background-color 0.4s ease-in-out !important;
+    z-index: 10000;
+}
+
+
+.navbar-brand{
+    font-size: 35px !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 900;
+}
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn{
+    background-color: rgb(255, 142, 49) !important;
+    border-radius: 0% !important;
+    border: none !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    padding: 15px !important;
+}
+.btn:hover{
+    color: white !important;
+    background-color: black !important;
+    transition: 1s all ease;
+}
+.ri-search-line{
+    font-size: 25px;
+    color: rgb(16, 8, 1);
+    text-decoration: none !important;
+    position: relative;
+    top: 10px;
+}
+.d-flex{
+    gap: 20px;
+}
+.navbar-link,.ri-search-line:hover{
+    color: rgb(254, 149, 58) !important;
+}
+#a{
+    color: rgb(255, 143, 51);
+}
+.main{
+    background: url("images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+}
+.main1{
+    position: relative;
+    top: 13rem;
+    left: 10rem;
+    width: 40%;
+}
+.a{
+    font-size: 2vw;
+    font-family: for;
+    color: rgb(247, 91, 25);
+}
+.b{
+    font-size: 4vw;
+    font-weight: 700;
+    color: rgb(241, 214, 198);
+}
+.c{
+    font-size: 1.4vw;
+    font-weight: 400;
+    color: rgb(241, 214, 198);
+}
+.d{
+    background-color: rgb(255, 142, 49);
+    width: 9vw;
+    padding: 12px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+.d:hover{
+    color: white;
+    background-color: black;
+    transition: 1s all ease;
+}
+
+
+.main-pic-box{
+    width: 55%;
+    position: absolute;
+    right: 0%;
+    top: 16%;
+    background: url('./images/hero-banner-bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.main-pic{
+    margin-top: 14%;
+    margin-left: 10%;
+    width: 70%;
+    z-index: 10000;
+}
+.main2{
+    background-color: rgb(249, 246, 240);
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    padding: 5vw;
+}
+.card1{
+    background-color: rgb(255, 255, 255);
+    width: 19%;
+    text-align: center;
+    padding: 2vw;
+    box-sizing: border-box;
+    transition: 356ms all ease-out;
+    box-shadow: 1px 1px 4px;
+}
+.card1:hover{
+    background-color: rgb(255, 157, 46);
+    color: white;
+}
+
+.font{
+    font-size: 4vw;
+}
+.heading{
+    font-size: 2vw;
+}
+.para{
+    font-size: 1vw;
+    color: rgb(183, 180, 180);
+}
+.img{
+    width: 100%;
+}
+.card2{
+    background-color: rgb(255, 255, 255);
+    width: 19%;
+    text-align: center;
+    padding: 2vw;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(193, 187, 187);
+    box-shadow: 1px 1px 4px;
+    transition: 356ms all ease-out;
+}
+.card2:hover{
+    background-color: rgb(255, 157, 46);
+    color: white;
+}
+.card3{
+    background-color: rgb(255, 255, 255);
+    width: 19%;
+    text-align: center;
+    padding: 2vw;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(193, 187, 187);
+    box-shadow: 1px 1px 4px;
+    transition: 356ms all ease-out;
+}
+.card3:hover{
+    color: white;
+    background-color: rgb(255, 157, 46);
+}
+.card4{
+    background-color: rgb(255, 255, 255);
+    width: 19%;
+    text-align: center;
+    padding: 2vw;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(193, 187, 187);
+    box-shadow: 1px 1px 4px;
+    transition: 356ms all ease-out;
+}
+.card4:hover{
+    color: white;
+    background-color: rgb(255, 157, 46);
+}
+.main3{
+    background: url("./images/hero-bg.jpg");
+    width: 100%;
+    padding: 8%;
+    
+}
+.main4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1{
+    width: 45%;
+}
+.heading2{
+    margin-top: 19%;
+    font-size: 2.6vw;
+    font-weight: 700;
+    color: rgb(241, 214, 198);
+
+}
+.z{
+    color: rgb(247, 91, 25);
+}
+.para2{
+    font-size: 1vw;
+    font-weight: 600;
+    color: rgb(212, 222, 222);
+}
+
+.shaper{
+    width: 100%;
+    z-index: 1000;
+    top: -10px;
+    position: relative;
+    float: right;
+    background-position: bottom;
+    transform: rotate(540deg) !important;
+}
+.shape1{
+    width: 100%;
+    position: relative;
+    top: -17px;
+    z-index: 1;
+}
+.div2{
+    width: 55%;
+    height: 30vh;
+    object-fit: fill;
+    object-position: center;
+}
+.y{
+    width: 90%;
+    margin-top: 0%;
+}
+.txtdiv{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.para3{
+    color: rgb(239, 38, 38);
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+.heading3{
+    font-size: 2.7vw;
+    font-weight: 700;
+}
+.para4{
+    font-size: 1.2vw;
+    color: rgb(122, 118, 118);
+}
+.x{
+    color: rgb(247, 91, 25);
+}
+.ncard1{
+    width: 400px;
+    box-shadow: 1px 1px 3px;
+    box-sizing: border-box;
+}
+.npic{
+    width: 100%;
+}
+.hvr{
+    font-size: 15px;
+    font-weight: 600;
+    transition: 250ms all ease;
+}
+.ri-calendar-todo-line,.ri-account-box-line{
+    color: rgb(247, 91, 25);
+}
+.ntxtdiv{
+    padding: 25px;
+    box-sizing: border-box;
+}
+.nheading{
+    font-size: 32px;
+}
+.npara{
+    color: rgb(142, 141, 141);
+}
+.readmore{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.hvr:hover{
+    color: rgb(247, 91, 25);
+     
+}
+.readmore:hover{
+    color: rgb(247, 91, 25);
+}
+.nheading:hover{
+    text-decoration: underline;
+}
+.ncards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.main5{
+    background-color: rgb(249, 246, 240);
+    padding: 10%;
+}
+@media (max-width:1060px) {
+    .main-pic-box{
+        display: none;
+    }
+    .main{
+        padding: 10%;
+        width: 100%;
+        height: 60vh;
+    }
+    .main1{
+        left: 0;
+        top: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .d{
+        width: 80%;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .card4{
+        display: none;
+    }
+    .para3{
+        font-size: larger;
+    }
+    .heading3{
+        font-size: 25px;
+    }
+    .para4{
+        font-size: 10px;
+    }
+}
+@media (max-width:620px) {
+    .main{
+        height: 40vh;
+    }
+    .d{
+        width: 50%;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .a{
+        font-size: 20px;
+    }
+    .b{
+        font-size: 20px;
+    }
+    .hvr{
+        font-size: 10px;
+    }
+    .nheading{
+        font-size: 18px;
+    }
+    .npara{
+        font-size: 14px;
+    }
+    .readmore{
+        font-size: 12px;
+    }
+    .ncard1{
+        width: 100%;
+    }
+    .para3{
+        font-size: 12px;
+    }
+    .heading3{
+        font-size: 17px;
+    }
+    .para4{
+        font-size: 7px;
+    }
+}
